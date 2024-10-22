@@ -4,5 +4,11 @@
       "source": "/(.*)",
       "destination": "/"
     }
+  ],
+  "builds": [
+    {
+      "src": "admin/package.json",
+      "use": "@vercel/node"
+    }
   ]
 }
